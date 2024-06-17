@@ -4,8 +4,8 @@
 
          main.py -- Main Code File.
        config.py -- Config File to Control some functionalities.
-   /Data Folder -- All input source files.
- /Output Folder -- Output Files will saved here.
+     Data Folder -- All input source files.
+   Output Folder -- Output Files will saved here.
 requirements.txt -- All requirement packages are provided here.
 
 config.py file -- 
