@@ -1,0 +1,200 @@
+********************************************************************************************
+
+Analytics 1
+
+Count of cases(accidents) where number of male deaths is greater than 2 = 0
+
+********************************************************************************************
+
+Analytics 2
+
+Number of Two Wheelers booked for Crashes = 784
+
+********************************************************************************************
+
+Analytics 3
+
+
+
+Top 5 Vehicle Makers of the cars present in the crashes in which driver died and Airbags did not deploy
+
+If NA in Data is Allowed:
++-----------+-----+
+|VEH_MAKE_ID|count|
++-----------+-----+
+|  CHEVROLET|    8|
+|       FORD|    6|
+|     NISSAN|    5|
+|      DODGE|    2|
+|      HONDA|    2|
++-----------+-----+
+
+ANSWER = ['CHEVROLET', 'FORD', 'NISSAN', 'DODGE', 'HONDA']
+
+If NA in Data is Not Allowed:
++-----------+-----+
+|VEH_MAKE_ID|count|
++-----------+-----+
+|  CHEVROLET|    8|
+|       FORD|    6|
+|     NISSAN|    5|
+|      DODGE|    2|
+|      HONDA|    2|
++-----------+-----+
+
+ANSWER = ['CHEVROLET', 'FORD', 'NISSAN', 'DODGE', 'HONDA']
+
+
+
+********************************************************************************************
+
+Analytics 4
+
+Number of Vehicles with driver having valid licences involved in hit and run = 3133
+
+********************************************************************************************
+
+Analytics 5
+
+
++-----------------+-----+
+|DRVR_LIC_STATE_ID|count|
++-----------------+-----+
+|            Texas|82964|
++-----------------+-----+
+
+
+State which has highest number of accidents in which females are not involved - ANSWER = Texas
+
+
+********************************************************************************************
+
+Analytics 6
+
+
++-----------+----------+-----+
+|VEH_MAKE_ID|sum(TOTAL)|drank|
++-----------+----------+-----+
+|     TOYOTA|    4228.0|    3|
+|      DODGE|    3146.0|    4|
+|     NISSAN|    3118.0|    5|
++-----------+----------+-----+
+
+
+Top 3rd to 5th VEH_MAKE_IDs that contribute to a largest number of injuries including death - Answer = ['TOYOTA', 'DODGE', 'NISSAN']
+
+
+********************************************************************************************
+
+Analytics 7
+
+
+The top ethnic user group of each unique body style - 
+
++------------------------------+-----------------+-----+-----+
+|              VEH_BODY_STYL_ID|PRSN_ETHNICITY_ID|count|drank|
++------------------------------+-----------------+-----+-----+
+|                     AMBULANCE|            WHITE|   97|    1|
+|                           BUS|         HISPANIC|  391|    1|
+|                FARM EQUIPMENT|            WHITE|   63|    1|
+|                    FIRE TRUCK|            WHITE|  112|    1|
+|                    MOTORCYCLE|            WHITE|  848|    1|
+|                            NA|            WHITE| 5693|    1|
+|NEV-NEIGHBORHOOD ELECTRIC V...|            WHITE|   10|    1|
+|                  NOT REPORTED|         HISPANIC|    2|    1|
+|                  NOT REPORTED|            WHITE|    2|    1|
+| OTHER  (EXPLAIN IN NARRATIVE)|            WHITE|  459|    1|
+|         PASSENGER CAR, 2-DOOR|            WHITE| 9877|    1|
+|         PASSENGER CAR, 4-DOOR|            WHITE|58312|    1|
+|                        PICKUP|            WHITE|38609|    1|
+|              POLICE CAR/TRUCK|            WHITE|  366|    1|
+|             POLICE MOTORCYCLE|         HISPANIC|    3|    1|
+|         SPORT UTILITY VEHICLE|            WHITE|33902|    1|
+|                         TRUCK|            WHITE| 4204|    1|
+|                 TRUCK TRACTOR|            WHITE| 5815|    1|
+|                       UNKNOWN|            WHITE| 1178|    1|
+|                           VAN|            WHITE| 5291|    1|
+|             YELLOW SCHOOL BUS|            WHITE|  264|    1|
++------------------------------+-----------------+-----+-----+
+
+
+
+********************************************************************************************
+
+Analytics 8
+
+
+Top 5 Zip Codes with highest number crashes with alcohols as the contributing factor to a crash (Use Driver Zip Code)
+
+If Null is Allowed
+
++--------+-----+
+|DRVR_ZIP|count|
++--------+-----+
+|    null|  328|
+|   78521|   78|
+|   76010|   75|
+|   75067|   62|
+|   78542|   52|
++--------+-----+
+
+
+Top 5 Zip Codes with Highest Crashes - Answer = [None, '78521', '76010', '75067', '78542']
+
+If Null is Not Allowed
+
++--------+-----+
+|DRVR_ZIP|count|
++--------+-----+
+|   78521|   78|
+|   76010|   75|
+|   75067|   62|
+|   78542|   52|
+|   78753|   49|
++--------+-----+
+
+
+Top 5 Zip Codes with Highest Crashes - Answer = ['78521', '76010', '75067', '78542', '78753']
+
+
+
+********************************************************************************************
+
+Analytics 9
+
+
+
+Count of Distinct Crash IDs where No Damaged Property was observed 
+and Damage Level (VEH_DMAG_SCL~) is above 4 and car avails Insurance - Count = 8852
+
+
+
+********************************************************************************************
+
+Analytics 10
+
+
+
+Top 5 Vehicle Makes where drivers are charged with speeding related offences, 
+has licensed Drivers, used top 10 used vehicle colours and has car licensed with the Top 25 states
+with highest number of offences (to be deduced from the data)
+
++-----------+-----+
+|VEH_MAKE_ID|count|
++-----------+-----+
+|       FORD| 4263|
+|  CHEVROLET| 3709|
+|     TOYOTA| 2269|
+|      DODGE| 1912|
+|      HONDA| 1375|
++-----------+-----+
+
+
+ANSWER = ['FORD', 'CHEVROLET', 'TOYOTA', 'DODGE', 'HONDA']
+
+
+
+********************************************************************************************
+
+Date = 16-June-2024, Sunday
+Time = 18:09:45
